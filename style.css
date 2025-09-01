@@ -1,0 +1,338 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    background-color: rgba(249, 247, 244, 0.812);
+    overflow-x: hidden;
+   
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: orange;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: rgb(155, 85, 0);
+}
+
+@media (max-width: 576px) {
+  .container, .row, img{
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+
+.navbar{
+    background-color:rgb(235, 127, 3);
+    
+}
+
+.navbar-toggler{
+    color: #ffffff94;
+    box-shadow: 3px 4px 10px rgb(246, 186, 97);
+    /* border: 1px solid white; */
+    border: none;
+}
+
+.navbar-toggler-icon{
+    filter: invert(1);
+}
+
+.navbar-brand{
+   color: #ffffff;
+}
+
+.navbar-brand:hover{
+color: rgb(255, 255, 255);
+}
+.nav-item span{
+    color: #ffffff;
+}
+#dropdownMenuLink{
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem; 
+  /* padding: 10px 18px;  */
+  font-weight: 500;
+}
+
+.navbar {
+  padding: 10px 30px; 
+}
+
+@media screen and (min-width:768px){
+    .position-md-fixed{
+        position: fixed;
+       
+    }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px 15px;
+  }
+}
+
+
+.cours-list {
+    border-radius: 20px;
+    width: 300px;
+    max-width: 100%;
+    box-shadow: 2px 2px 20px rgb(216, 165, 97);
+    padding: 8px 10px;
+    background-color: rgb(248, 245, 240);
+}
+
+
+.cours-list-item{
+    color:rgba(255, 166, 0, 0.599);
+    display: flex;
+    padding: 4px 3px;
+}
+
+.cours-list-item span{
+    color: rgb(210, 150, 30);
+}
+.cours-list-item span:hover{
+    color: rgb(255, 170, 0);
+}
+
+
+.cours-list-item:hover{
+   color: rgb(255, 170, 0);
+    background-color: rgb(248, 238, 223);
+}
+
+p , h2{
+    font-style: italic;
+    /* color: rgb(195, 127, 1); */
+}
+
+.btn{
+    background: linear-gradient(to right, rgb(255, 217, 0) ,rgba(255, 60, 0, 0.588),rgba(109, 4, 109, 0.675));
+    padding: 3px 30px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    /* box-shadow: 2px 2px 10px orange; */
+}
+
+.btns{
+    background: transparent;
+    border: 1px solid orange;
+    padding: 3px 40px;
+    border-radius: 20px;
+    color: rgb(215, 100, 0);
+    box-shadow: 1px 2px 6px orange;
+}
+
+.header{
+    background: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    border: none;
+    box-shadow: 1px 2px 10px rgb(248, 228, 190);
+}
+
+.btnt{
+    padding: 3px 10px;
+border-radius: 20px;
+background-color: rgb(255, 145, 0);
+text-decoration: none;
+color: white;
+}
+
+
+.btnt:hover{
+    background-color: wheat;
+    color: rgb(255, 123, 0);
+    box-shadow: 2px 1px 10px orange;
+}
+
+.counter-box{
+    box-shadow: 2px 2px 10px orange;
+}
+
+ .custom-accordion {
+    box-shadow: 1px 1px 5px rgb(228, 153, 12);
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.custom-btn {
+  background-color: #f57c00;
+  color: white;
+  font-weight: 500;
+}
+
+.custom-btn:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ffa230;
+  color: white;
+  box-shadow: none;
+}
+
+
+ /* Base Style */
+.services-box {
+  border-radius: 10px;
+  box-shadow: 2px 2px 7px;
+  border-bottom: 5px solid;
+  transition: all 0.3s ease;
+  color: inherit;
+}
+
+/* ORANGE */
+.orange-box {
+  box-shadow: 2px 2px 7px  #f5009b;
+  border-bottom-color:  #970060;
+  color: #f5009b;
+}
+
+.orange-box i,
+.orange-box .read {
+  color: #f5009b;
+  text-decoration: none;
+}
+
+.orange-box:hover {
+background: linear-gradient(to right, rgb(218, 40, 147), rgb(204, 24, 132) , #78004c);
+  color: #fff;
+  box-shadow: 2px 1px 10px  #f5009b;
+}
+
+.orange-box:hover i,
+.orange-box:hover .read {
+  color: #fff;
+}
+
+/* BLUE */
+.blue-box {
+  box-shadow: 2px 2px 7px rgb(0, 82, 144);
+  border-bottom-color: rgb(3, 64, 139);
+  color: rgb(14, 45, 167);
+}
+
+.blue-box i,
+.blue-box .read {
+  color: rgb(0, 65, 169);
+  text-decoration: none;
+}
+
+.blue-box:hover {
+  background: linear-gradient(to right, rgb(0, 196, 222), rgb(16, 84, 255) , rgb(57, 0, 142));
+  color: #fff;
+}
+
+.blue-box:hover i,
+.blue-box:hover .read {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* GREEN */
+.green-box {
+  box-shadow: 2px 2px 7px rgb(8, 144, 0);
+  border-bottom-color: rgb(0, 138, 32);
+  color: rgb(28, 169, 0);
+}
+
+.green-box i,
+.green-box .read {
+  color: rgb(0, 169, 20);
+  text-decoration: none;
+}
+
+.green-box:hover {
+    background: linear-gradient(to right, rgb(82, 196, 0), rgb(16, 150, 1) , rgb(0, 124, 29));
+  color: #fff;
+}
+
+.green-box:hover i,
+.green-box:hover .read {
+  color: #fff;
+}
+
+.pricing-box{
+    transition: all 0.5s;
+   
+
+}
+
+.pricing-box:hover{
+    transform: scale(1.05);
+}
+
+
+.but{
+  font-style: italic;
+    background: transparent;
+    border: none;
+    /* border: 1px solid rgb(182, 1, 34); */
+    padding: 3px 40px;
+    border-radius: 20px;
+    color:  rgb(182, 1, 34);
+    box-shadow: 1px 2px 6px rgb(162, 4, 65);
+}
+
+.card-1{
+     box-shadow: 1px 2px 6px rgb(162, 4, 65);
+}
+
+.card-3{
+    box-shadow: 1px 2px 6px rgb(3, 132, 123);
+}
+
+
+.card-3 button{
+    background: transparent;
+    border: none;
+    /* border: 1px solid rgb(182, 1, 34); */
+    padding: 3px 40px;
+    border-radius: 20px;
+    color: rgb(3, 132, 123);
+    box-shadow: 1px 2px 6px rgb(3, 132, 123);
+}
+
+.card-4{
+    box-shadow: 1px 2px 6px rgb(103, 203, 9);
+}
+
+.card-4 button{
+     background: transparent;
+    border: none;
+    /* border: 1px solid rgb(182, 1, 34); */
+    padding: 3px 40px;
+    border-radius: 20px;
+    color:  rgb(103, 203, 9);
+    box-shadow: 1px 2px 6px rgb(103, 203, 9);
+}
+
+footer{
+    background-color:rgb(235, 127, 3);
+    color: white;
+}
+
+.row{
+  margin-left: 0px !important;
+}
